@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Survey Form</title>
+    <meta name="description" content="form">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+   
+    <script type="text/javascript">
+        function showMessage() {
+
+            $("footer").append("<p class='validate'>your message is send</p>");
+
+        }
+    </script>
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <header>
+        <h1 id="title">Form Survey</h1>
+        <p id="description">COVID 19 FORM</p>
+    </header>
+    <section>
+
+
+        <form id="survey-form" name="form">
+         
+
+                <div id="information">
+                    <h3>Enter your information</h3>
+                    <label id="name-label">name</label>
+                    <input id="name" type="text" placeholder="enter your name" value="" required>
+                    <label id="email-label">email</label>
+                    <input id="email" type="email" placeholder="enter your email" value="" required>
+                    <div class="btnnext1">
+                        <p>next</p>
+                    </div>
+                </div>
+                <div id="informationplus">
+                    <label>ID passeport</label>
+                    <input id="passeport-label" type="text" placeholder="id passeport">
+                    <label id="number-label">age</label>
+                    <input id="number" type="number" min="18" max="99" placeholder="Enter your age">
+                    <label id="phone-label">phone</label>
+                    <input id="phone" type="phone" placeholder="Enter your phone number">
+                    <div class="select">
+                        <label>your titel</label>
+                        <select id="dropdown">
+                            <option value="Worker">Worker</option>
+                            <option value="Employee">Employee</option>
+                            <option value="Employee shareholders">Employee shareholders</option>
+                            <option value="Self-employed and contractor">Self-employed and contractor</option>
+                            <option value="Office holder">Office holder</option>
+
+                        </select>
+                    </div>
+
+                    <label>Country of registration</label>
+                    <select id="country" name="country">
+                        <option value="Afghanistan">Afghanistan</option>
+                        <option value="Albania">Albania</option>
+                        <option value="Algeria">Algeria</option>
+                        <option value="Andorra">Andorra</option>
+                        <option value="Angola">Angola</option>
+                        <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Armenia">Armenia</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Austria">Austria</option>
+                        <option value="Azerbaijan">Azerbaijan</option>
+                        <option value="Bahamas">Bahamas</option>
+                        <option value="Bahrain">Bahrain</option>
+                        <option value="Bangladesh">Bangladesh</option>
+                        <option value="Barbados">Barbados</option>
+                        <option value="Belarus">Belarus</option>
+                        <option value="Belgium">Belgium</option>
+                        <option value="Belize">Belize</option>
+                        <option value="Benin">Benin</option>
+                        <option value="Bhutan">Bhutan</option>
+                        <option value="Bolivia">Bolivia</option>
+                        <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                        <option value="Botswana">Botswana</option>
+                        <option value="Brazil">Brazil</option>
+                        <option value="Brunei">Brunei</option>
+                        <option value="Bulgaria">Bulgaria</option>
+                        <option value="Burkina Faso">Burkina Faso</option>
+                        <option value="Burundi">Burundi</option>
+                        <option value="Côte d'Ivoire">Côte d'Ivoire</option>
+                        <option value="Cabo Verde">Cabo Verde</option>
+                        <option value="Cambodia">Cambodia</option>
+                        <option value="Cameroon">Cameroon</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Central African Republic">Central African Republic</option>
+                        <option value="Chad">Chad</option>
+                        <option value="Chile">Chile</option>
+                        <option value="China">China</option>
+                        <option value="Colombia">Colombia</option>
+                        <option value="Comoros">Comoros</option>
+                        <option value="Congo (Congo-Brazzaville)">Congo (Congo-Brazzaville)</option>
+                        <option value="Costa Rica">Costa Rica</option>
+                        <option value="Croatia">Croatia</option>
+                        <option value="Cuba">Cuba</option>
+                        <option value="Cyprus">Cyprus</option>
+                        <option value="Czechia (Czech Republic)">Czechia (Czech Republic)</option>
+                        <option value="Democratic Republic of the Congo">Democratic Republic of the Congo</option>
+                        <option value="Denmark">Denmark</option>
+                        <option value="Djibouti">Djibouti</option>
+                        <option value="Dominica">Dominica</option>
+                        <option value="Dominican Republic">Dominican Republic</option>
+                        <option value="Ecuador">Ecuador</option>
+                        <option value="Egypt">Egypt</option>
+                        <option value="El Salvador">El Salvador</option>
+                        <option value="Equatorial Guinea">Equatorial Guinea</option>
+                        <option value="Eritrea">Eritrea</option>
+                        <option value="Estonia">Estonia</option>
+                        <option value="Eswatini (fmr. 'Swaziland')">Eswatini (fmr. 'Swaziland')</option>
+                        <option value="Ethiopia">Ethiopia</option>
+                        <option value="Fiji">Fiji</option>
+                        <option value="Finland">Finland</option>
+                        <option value="France">France</option>
+                        <option value="Gabon">Gabon</option>
+                        <option value="Gambia">Gambia</option>
+                        <option value="Georgia">Georgia</option>
+                        <option value="Germany">Germany</option>
+                        <option value="Ghana">Ghana</option>
+                        <option value="Greece">Greece</option>
+                        <option value="Grenada">Grenada</option>
+                        <option value="Guatemala">Guatemala</option>
+                        <option value="Guinea">Guinea</option>
+                        <option value="Guinea-Bissau">Guinea-Bissau</option>
+                        <option value="Guyana">Guyana</option>
+                        <option value="Haiti">Haiti</option>
+                        <option value="Holy See">Holy See</option>
+                        <option value="Honduras">Honduras</option>
+                        <option value="Hungary">Hungary</option>
+                        <option value="Iceland">Iceland</option>
+                        <option value="India">India</option>
+                        <option value="Indonesia">Indonesia</option>
+                        <option value="Iran">Iran</option>
+                        <option value="Iraq">Iraq</option>
+                        <option value="Ireland">Ireland</option>
+                        <option value="Israel">Israel</option>
+                        <option value="Italy">Italy</option>
+                        <option value="Jamaica">Jamaica</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Jordan">Jordan</option>
+                        <option value="Kazakhstan">Kazakhstan</option>
+                        <option value="Kenya">Kenya</option>
+                        <option value="Kiribati">Kiribati</option>
+                        <option value="Kuwait">Kuwait</option>
+                        <option value="Kyrgyzstan">Kyrgyzstan</option>
+                        <option value="Laos">Laos</option>
+                        <option value="Latvia">Latvia</option>
+                        <option value="Lebanon">Lebanon</option>
+                        <option value="Lesotho">Lesotho</option>
+                        <option value="Liberia">Liberia</option>
+                        <option value="Libya">Libya</option>
+                        <option value="Liechtenstein">Liechtenstein</option>
+                        <option value="Lithuania">Lithuania</option>
+                        <option value="Luxembourg">Luxembourg</option>
+                        <option value="Madagascar">Madagascar</option>
+                        <option value="Malawi">Malawi</option>
+                        <option value="Malaysia">Malaysia</option>
+                        <option value="Maldives">Maldives</option>
+                        <option value="Mali">Mali</option>
+                        <option value="Malta">Malta</option>
+                        <option value="Marshall Islands">Marshall Islands</option>
+                        <option value="Mauritania">Mauritania</option>
+                        <option value="Mauritius">Mauritius</option>
+                        <option value="Mexico">Mexico</option>
+                        <option value="Micronesia">Micronesia</option>
+                        <option value="Moldova">Moldova</option>
+                        <option value="Monaco">Monaco</option>
+                        <option value="Mongolia">Mongolia</option>
+                        <option value="Montenegro">Montenegro</option>
+                        <option value="Morocco">Morocco</option>
+                        <option value="Mozambique">Mozambique</option>
+                        <option value="Myanmar (formerly Burma)">Myanmar (formerly Burma)</option>
+                        <option value="Namibia">Namibia</option>
+                        <option value="Nauru">Nauru</option>
+                        <option value="Nepal">Nepal</option>
+                        <option value="Netherlands">Netherlands</option>
+                        <option value="New Zealand">New Zealand</option>
+                        <option value="Nicaragua">Nicaragua</option>
+                        <option value="Niger">Niger</option>
+                        <option value="Nigeria">Nigeria</option>
+                        <option value="North Korea">North Korea</option>
+                        <option value="North Macedonia">North Macedonia</option>
+                        <option value="Norway">Norway</option>
+                        <option value="Oman">Oman</option>
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="Palau">Palau</option>
+                        <option value="Palestine State">Palestine State</option>
+                        <option value="Panama">Panama</option>
+                        <option value="Papua New Guinea">Papua New Guinea</option>
+                        <option value="Paraguay">Paraguay</option>
+                        <option value="Peru">Peru</option>
+                        <option value="Philippines">Philippines</option>
+                        <option value="Poland">Poland</option>
+                        <option value="Portugal">Portugal</option>
+                        <option value="Qatar">Qatar</option>
+                        <option value="Romania">Romania</option>
+                        <option value="Russia">Russia</option>
+                        <option value="Rwanda">Rwanda</option>
+                        <option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+                        <option value="Saint Lucia">Saint Lucia</option>
+                        <option value="Saint Vincent and the Grenadines">Saint Vincent and the Grenadines</option>
+                        <option value="Samoa">Samoa</option>
+                        <option value="San Marino">San Marino</option>
+                        <option value="Sao Tome and Principe">Sao Tome and Principe</option>
+                        <option value="Saudi Arabia">Saudi Arabia</option>
+                        <option value="Senegal">Senegal</option>
+                        <option value="Serbia">Serbia</option>
+                        <option value="Seychelles">Seychelles</option>
+                        <option value="Sierra Leone">Sierra Leone</option>
+                        <option value="Singapore">Singapore</option>
+                        <option value="Slovakia">Slovakia</option>
+                        <option value="Slovenia">Slovenia</option>
+                        <option value="Solomon Islands">Solomon Islands</option>
+                        <option value="Somalia">Somalia</option>
+                        <option value="South Africa">South Africa</option>
+                        <option value="South Korea">South Korea</option>
+                        <option value="South Sudan">South Sudan</option>
+                        <option value="Spain">Spain</option>
+                        <option value="Sri Lanka">Sri Lanka</option>
+                        <option value="Sudan">Sudan</option>
+                        <option value="Suriname">Suriname</option>
+                        <option value="Sweden">Sweden</option>
+                        <option value="Switzerland">Switzerland</option>
+                        <option value="Syria">Syria</option>
+                        <option value="Tajikistan">Tajikistan</option>
+                        <option value="Tanzania">Tanzania</option>
+                        <option value="Thailand">Thailand</option>
+                        <option value="Timor-Leste">Timor-Leste</option>
+                        <option value="Togo">Togo</option>
+                        <option value="Tonga">Tonga</option>
+                        <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+                        <option value="Tunisia">Tunisia</option>
+                        <option value="Turkey">Turkey</option>
+                        <option value="Turkmenistan">Turkmenistan</option>
+                        <option value="Tuvalu">Tuvalu</option>
+                        <option value="Uganda">Uganda</option>
+                        <option value="Ukraine">Ukraine</option>
+                        <option value="United Arab Emirates">United Arab Emirates</option>
+                        <option value="United Kingdom">United Kingdom</option>
+                        <option value="United States of America">United States of America</option>
+                        <option value="Uruguay">Uruguay</option>
+                        <option value="Uzbekistan">Uzbekistan</option>
+                        <option value="Vanuatu">Vanuatu</option>
+                        <option value="Venezuela">Venezuela</option>
+                        <option value="Vietnam">Vietnam</option>
+                        <option value="Yemen">Yemen</option>
+                        <option value="Zambia">Zambia</option>
+                        <option value="Zimbabwe">Zimbabwe</option>
+                     
+
+
+                    </select>
+                    <div class="btnnext2">
+                        <p>next</p>
+                    </div>
+                </div>
+
+
+           
+            <div id=checkboxchoice>
+                <div class="radiogroup">
+                    <h3>have you had covid 19?</h3>
+                    <fieldset>
+                        <div class="wrapper">
+                            <input class="state"  type="radio" name="app" id="a" value="yes">
+                            <label class="label" for="a">
+                                <div class="radio"></div>
+                                <span class="text">Yes</span>
+                            </label>
+                        </div>
+                        <div class="wrapper">
+                            <input class="state"  type="radio" name="app" id="b" value="no">
+                            <label class="label" for="b">
+                                <div class="radio"></div>
+                                <span class="text">No</span>
+                            </label>
+                        </div>
+                        <div class="wrapper">
+                            <input class="state" type="radio" name="app" id="c" value="I don't know">
+                            <label class="label" for="c">
+                                <div class="radio"></div>
+                                <span class="text">I don't know</span>
+                            </label>
+                        </div>
+                    </fieldset>
+
+
+                    <div class="btnnext3">
+                        <p>next</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="yescovid">
+                <h3>what symptoms did you have? </h3>
+                <div class="section">
+                    <fieldset>
+                       <div class="left">
+
+                        <div class="wrapper">
+
+                            <label class="label">
+                                <input class="state" type="checkbox" value="cough" name="YC">
+                                <div class="checkmark"></div>
+                                <span class="text">cough</span>
+                            </label>
+                        </div>
+
+                        <div class="wrapper">
+
+                            <label class="label">
+                                <input class="state" type="checkbox" value="fever" name="YC">
+                                <div class="checkmark"></div>
+                                <span class="text">fever</span>
+                            </label>
+                        </div>
+
+
+                        <div class="wrapper">
+
+                            <label class="label">
+                                <input class="state" type="checkbox" value="tired" name="YC">
+                                <span class="checkmark"></span>
+                                <span class="text">tired</span>
+                            </label>
+                        </div>
+                        <div class="wrapper">
+
+                            <label class="label">
+                                <input class="state" type="checkbox" value="loss of taste and smell" name="YC">
+                                <span class="checkmark"></span>
+                                <span class="text">loss of taste and smell</span>
+                            </label>
+                        </div>
+                        <div class="wrapper">
+
+                            <label class="label">
+                                <input class="state" type="checkbox" value="sore throat" name="YC">
+                                <span class="checkmark"></span>
+                                <span class="text">sore throat</span>
+                            </label>
+                        </div>
+                       </div>
+                  <div class="right">
+                    <div class="wrapper">
+
+                        <label class="label">
+                            <input class="state" type="checkbox" value="headache" name="YC">
+                            <span class="checkmark"></span>
+                            <span class="text">headache</span>
+                        </label>
+                    </div>
+                    <div class="wrapper">
+
+                        <label class="label">
+                            <input class="state" type="checkbox" value="stiffness" name="YC">
+                            <span class="checkmark"></span>
+                            <span class="text">stiffness</span>
+                        </label>
+                    </div>
+                    <div class="wrapper">
+
+                        <label class="label">
+                            <input class="state" type="checkbox" value="diarrhea" name="YC">
+                            <span class="checkmark"></span>
+                            <span class="text">diarrhea</span>
+                        </label>
+                    </div>
+                    <div class="wrapper">
+
+                        <label class="label">
+                            <input class="state" type="checkbox" value="rash" name="YC">
+                            <span class="checkmark"></span>
+                            <span class="text">rash</span>
+                        </label>
+                    </div>
+                    <div class="wrapper">
+
+                        <label class="label">
+                            <input class="state" type="checkbox" value="red or irritated eyes" name="YC">
+                            <span class="checkmark"></span>
+                            <span class="text">red or irritated eyes</span>
+                        </label>
+                    </div>
+
+                  </div>
+                      
+
+                    </fieldset>
+                    <div class="btnyescovid">
+                        <p>next</p>
+                    </div>
+                </div>
+            </div>
+            <div id="SG">
+                <h3>have you had any serious symptoms</h3>
+                <div class="section">
+                    <fieldset>
+                       
+                        <div class="wrapper">
+
+                            <label class="label">
+                                <input id="db" class="state" type="checkbox" value="difficulty breathing" name="SGH">
+                                <div class="checkmark"></div>
+                                <span class="text">difficulty breathing</span>
+                            </label>
+                        </div>
+
+                        <div class="wrapper">
+
+                            <label class="label">
+                                <input id="sb" class="state" type="checkbox" value="shortness of breath" name="SGH">
+                                <div class="checkmark"></div>
+                                <span class="text">shortness of breath</span>
+                            </label>
+                        </div>
+
+                        <div class="wrapper">
+
+                            <label class="label">
+                                <input  id="lsms" class="state" type="checkbox" value="loss of speech or motor skills" name="SGH">
+                                <div class="checkmark"></div>
+                                <span class="text">loss of speech or motor skills</span>
+                            </label>
+                        </div>
+                        <div class="wrapper">
+
+                            <label class="label">
+                                <input id="cs" class="state" type="checkbox" value="confusional state" name="SGH">
+                                <div class="checkmark"></div>
+                                <span class="text">confusional state</span>
+                            </label>
+                        </div>
+
+
+                        <div class="wrapper">
+
+                            <label class="label">
+                                <input  id="cp" class="state" type="checkbox" value="chest pain" name="SGH">
+                                <span class="checkmark"></span>
+                                <span class="text">chest pain</span>
+                            </label>
+                        </div>
+                        <div class="wrapper">
+
+                            <label class="label">
+                                <input id="null" class="state" type="checkbox" value="nothing" name="SGH">
+                                <span class="checkmark"></span>
+                                <span class="text">nothing</span>
+                            </label>
+                        </div>
+                        
+                        
+                        
+
+                    </fieldset>
+                    <div class="btnnext5">
+                        <p>next</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="nocovid">
+               
+                <div class="radiogroup">
+                    <h3>did you take the vaccine?</h3>
+                    <fieldset>
+                        <div class="wrapper">
+                            <input class="state"  type="radio" name="no" id="e" value="yes">
+                            <label class="label" for="e">
+                                <div class="radio"></div>
+                                <span class="text">Yes</span>
+                            </label>
+                        </div>
+                        <div class="wrapper">
+                            <input class="state"  type="radio" name="no" id="f" value="no">
+                            <label class="label" for="f">
+                                <div class="radio"></div>
+                                <span class="text">No</span>
+                            </label>
+                        </div>
+                      
+                    </fieldset>
+
+
+                    <div class="btnnext6">
+                        <p>next</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="novaccine">
+               
+                <div class="radiogroup">
+                    <h3>did you take the vaccine?</h3>
+                   
+
+
+                    <div class="btnnext3">
+                        <p>next</p>
+                    </div>
+                </div>
+            </div>
+            <div id="yesvaccine">
+               
+                <div class="radiogroup">
+                    <h3>did you take the vaccine?</h3>
+                   
+
+
+                    <div class="btnnext3">
+                        <p>next</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="iDKcovid">
+                <h3>You need to make a checkup at hospital</h3>
+                <img src="https://www.mcsaatchi.ch/wp-content/uploads/2015/03/HUG_LOGO_NEG.jpg" style="height: 100px;width: 300px;">
+            </div>
+
+            <div id="someinformation">
+                <h3>Some text for experience of covid sick</h3>
+               
+                <textarea id="textexp" ></textarea>
+                <div class="btnnext4">
+                    <p>next</p>
+                </div>
+            </div>
+
+            <div id=validate>
+
+                <label>validate</label>
+                <div class="formresult">
+                    <div class="textresult">Name: <span id="vname"></span></div>
+                    <div class="textresult">Email: <span id="vemail"></span></div>
+                    <div class="textresult">Age: <span id="vage"></span></div>
+
+                    <div class="textresult">Phone: <span id="vphone"></span></div>
+                    <div class="textresult">Fonction: <span id="vtitel"></span></div>
+                    <div class="textresult">Q1: Vacinned?: <span id="vQ1"></span></div>
+                    <div class="textresult">Q2: Symptom?: <span id="vQ2"></span></div>
+                   
+                    <div class="textresult">Exp: <span id="vExp"></span></div>
+                </div>
+                <button type="submit" id="submit" onclick="showMessage()">
+                    <p>submit</p>
+                </button>
+            </div>
+        </form>
+
+
+
+    </section>
+    <footer></footer>
+    <script type="text/javascript">
+        window.addEventListener('keydown', function (e) {
+            if (e.keyIdentifier == 'U+000A' || e.keyIdentifier == 'Enter' || e.keyCode == 13) {
+                if (e.target.nodeName == 'INPUT' && e.target.type == 'text') {
+                    e.preventDefault();
+                    return false;
+                } else if (e.target.nodeName == 'INPUT' && e.target.type == 'email') {
+                    e.preventDefault();
+                    return false;
+                } else if (e.target.nodeName == 'INPUT' && e.target.type == 'number') {
+                    e.preventDefault();
+                    return false;
+                } else if (e.target.nodeName == 'INPUT' && e.target.type == 'radio') {
+                    e.preventDefault();
+                    return false;
+                } else if (e.target.nodeName == 'INPUT' && e.target.type == 'checkbox') {
+                    e.preventDefault();
+                    return false;
+                }
+
+
+            }
+        }, true);
+    </script>
+  
+  
+    <script src="/js/jquery.js"></script>
+    <script src="/js/validate.js"></script>
+</body>
+
+</html>
